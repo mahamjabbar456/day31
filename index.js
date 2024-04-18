@@ -10,6 +10,7 @@ function RemoveLastElementFromArray(fruit) {
 }
 console.log(RemoveLastElementFromArray(fruits));
 // Question 93
+// I am use two method here indexof method use to get index of element and then use index to change element in array
 let index = fruits.indexOf("Banana");
 fruits[index] = "Mango";
 console.log(fruits);
